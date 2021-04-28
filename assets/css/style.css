@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'ROBOTO', sans-serif;
+}
+.container {
+ display: flex;
+}
+.register-box {
+	border-right: 1px solid #f1f1f1;
+	width: 50%;
+	padding: 10px;
+}
+.register-input {
+	padding: 150px;
+}
+.fa-envelope {
+	position: absolute;
+	margin-top: 30px;
+	font-size: 25px;
+	margin-left: -35px;
+	color: #0e6960;
+}
+.fa-exclamation-circle {
+	position: absolute;
+	color: #d82828;
+	display: none;
+}
+.fa-check-circle {
+	position: absolute;
+	color: #1cb11c;
+	display: none;
+}
+#err {
+	color: #d82828;
+	margin-top: -22px;
+	margin-left: 20px;
+}
+#message {
+	background: white;
+	border: 1px solid #ecd3d3;
+	border-radius: 4px;
+	padding: 10px;
+	display: none;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+.fa-phone-square {
+	position: absolute;
+	margin-top: 29px;
+	font-size: 27px;
+	margin-left: -52px;
+	color: #0e6960;
+}
+.fa-key {
+	position: absolute;
+	margin-top: 30px;
+	font-size: 25px;
+	margin-left: -65px;
+	color: #0e6960;
+}
+.keys {
+	position: absolute;
+	margin-top: 30px;
+	font-size: 25px;
+	margin-left: -125px;
+	color: #0e6960;
+}
+.regbtn {
+	border: 2px solid #0e6960; 
+	font-size: 15px;
+	float: right;
+	padding: 10px;
+	background: white;
+	color: #0e6960;
+	cursor: pointer;
+	border-radius: 2px;
+}
+h1 {
+	margin-top: 25px;
+	color: #0e6960
+}
+p {
+	margin-top: 12.5px;
+	color: #0e6960;
+}
+hr {
+	margin-top: 12.5px;
+  	border: 1px solid #f1f1f1;
+  	margin-bottom: 25px;
+}
+input[type=text], input[type=email], input[type=number], input[type=password]  {
+ 	width: 100%;
+ 	padding: 10px;
+ 	margin: 5px 0 5px 0;
+ 	display: inline-block;
+  	border: none;
+  	border: 1px solid grey;
+  	border-radius: 4px;
+  	font-size: 15px;
+  	padding-left: 40px;
+}
+input:focus {
+	outline: none;
+}
+.vector {
+	position: absolute;
+	width: 20%;
+	margin-left: 110px;
+}
+.or {
+	position: absolute;
+	border: 1px solid #f1f1f1;
+	background: #fbf7f7;
+	padding: 10px;
+	border-radius: 50%;
+	color: grey;
+	margin-left: 47.8%;
+	margin-top: 25%;
+}
+.login-box, .register-box {
+	float: left;
+	display: flex;
+}
+.vector1 {
+	position: absolute;
+	width: 35%;
+	margin-left: 90px;
+	margin-top: 6%;
+}
+.login-box {
+	width: 50%;
+	padding: 10px;
+}
+.login-input {
+	padding: 150px;
+	margin-top: 100px;
+}
+.loginbtn {
+	border: 2px solid #0e6960; 
+	font-size: 15px;
+	float: right;
+	padding: 10px;
+	background: #0e6960;
+	color: white;
+	cursor: pointer;
+	border-radius: 2px;
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .login-box {
+  	display: none;
+  }
+}

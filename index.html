@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>User Account</title>
+</head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script defer src="assets/js/script.js"></script>
+
+<body>
+	<div class="container">
+		<div class="register-box">
+				<img class="vector" src="assets/img/vector.png">
+			<div class="register-input">
+				<h1>Register Auth</h1>
+    			<p>Please fill in this form to create an account.</p>
+    			<hr>
+				<form id="form" action="http://reg-auth.herokuapp.com" method="POST">
+					<div id="message">
+					<i id="invalid" class="fas fa-exclamation-circle"></i>
+					<span id="err"></span><br>
+					</div>
+					<label>Email: </label>
+					<i class="fas fa-envelope"></i>
+					<input type="text" id="email" name="email" placeholder="Enter email" required>
+					<label>Contact: </label>
+					<i class="fas fa-phone-square"></i>
+					<input type="number" id="contact" name="contact" placeholder="Enter contact" required>
+					<label>Password: </label>
+					<i class="fas fa-key"></i>
+					<input type="password" id="password" name="password" placeholder="Enter password" required>
+					<label>Confirm password: </label>
+					<i class="fas fa-key keys"></i>
+					<input type="password" id="password2" name="password2" placeholder="Confirm password" required>
+					<button type="submit" class="regbtn">Register</button>
+				</form>
+			</div>
+		</div>
+		<div class="login-box">
+			<img class="vector1" src="assets/img/vector2.png">
+		</div>
+
+	</div>
+</body>
+</html>
