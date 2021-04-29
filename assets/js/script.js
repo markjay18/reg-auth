@@ -103,6 +103,6 @@ form.addEventListener('submit', (e) => {
 		 emailArray.push(email.value)
          passwordArray.push(pwd.value)
 
-         alert(email.value + "Thanks for registration. \nTry to login now.")
+         alert(email.value + "Thanks for registration. \n")
 	}		
 })
