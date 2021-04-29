@@ -155,3 +155,7 @@ input:focus {
   	display: none;
   }
 }
+.warning {
+	color: #e91e63;
+	text-align: justify;
+}
