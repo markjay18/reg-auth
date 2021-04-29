@@ -33,7 +33,7 @@ form.addEventListener('submit', (e) => {
 		contact.style.borderColor = "#1cb11c"
 	}else{
 	// When contact input is wrong
-		messages.push('You have entered an invalid contact number!')
+		messages.push('Contact must contain at least 11 numbers!')
 		document.getElementById('message').style.display = "block"
 		document.getElementById('invalid').style.display = "block"
 		contact.style.borderColor = "#d82828"
