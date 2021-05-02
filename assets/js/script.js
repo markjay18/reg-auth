@@ -44,7 +44,7 @@ form.addEventListener('submit', (e) => {
 		// Do nothing
 	}else{
 	// If no lowercase letter
-		messages.push('Lowercase letter is required!')
+		messages.push('Password lowercase letter is required!')
 		document.getElementById('message').style.display = "block"
 		document.getElementById('invalid').style.display = "block"
 		pwd.style.borderColor = "#d82828"
@@ -55,7 +55,7 @@ form.addEventListener('submit', (e) => {
 		// Do nothing
 	}else{
 	// If no uppercase letter
-		messages.push('Uppercase letter is required!')
+		messages.push('Password uppercase letter is required!')
 		document.getElementById('message').style.display = "block"
 		document.getElementById('invalid').style.display = "block"
 		pwd.style.borderColor = "#d82828"
@@ -66,7 +66,7 @@ form.addEventListener('submit', (e) => {
 		// Do nothing
 	}else{
 	// If no number
-		messages.push('Number is required!')
+		messages.push('Password number is required!')
 		document.getElementById('message').style.display = "block"
 		document.getElementById('invalid').style.display = "block"
 		pwd.style.borderColor = "#d82828"
